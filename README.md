@@ -2,25 +2,19 @@
 We're building task oriented AI Agent in this project. Task-oriented AI focuses on performing specific tasks rather than engaging in general conversations.
 
 
-
-# How_To_Build_A_Task_Oriented_AI_Agent_From_Scratch
-How I Built Refund Processing Using AI Agents, From Scratch, All AI, All Local
-
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/how-i-built-refund-processing-system-using-ai-agents-from-scratch-7702a998a0c7
+Full Article : [https://medium.com/@learn-simplified/how-to-build-task-oriented-ai-agents-1c130cad7158
 
-I'm excited to share with you how I built a comprehensive refund processing system using artificial intelligence (AI) agents. This article will take you on a journey of how AI Agents tackled the task of refund handling, from the initial planning to the final implementation.
-While I chose one of real world use case, same approach, design can be used to any real world application.
 
 ## What's This Project About?
 
-In this article, I'll walk you through the process of creating a refund processing system that leverages AI Agents to streamline the customer experience. I'll cover the key components, such as setting up a conversational workflow, integrating language models, and designing a simulated user interaction. The goal is to showcase how AI can be applied to enhance traditional business processes, in this case, the often tedious task of managing customer refunds.
+What Is This Article About?
+This article is about AgentLite, a new software library designed to help developers build more efficient and effective AI systems that can handle specific tasks. Task-oriented AI systems are becoming increasingly important as they allow machines to perform complex functions, such as customer service, data analysis, or even creative work like writing and art. AgentLite offers a streamlined and accessible approach to creating these AI systems, making it easier for developers to design, build, and advance task-oriented AI agents without needing extensive resources or advanced technical expertise.
 
 ## Why Use This Project?
 
-The ability to provide efficient and personalized customer service is crucial. AI-driven solutions are transforming the way companies interact with their customers, and this article will demonstrate how you can harness the power of AI to revolutionize your refund processing system.
-By reading this article, you'll gain insights into the practical implementation of AI agents and understand how they can be used to improve customer satisfaction, reduce operational costs, and enhance the overall efficiency of your refund management processes. This article is particularly relevant for businesses that deal with a high volume of refund requests and are looking to optimize their customer experience.
+AI is rapidly changing the world around us, from the way businesses operate to the services we use every day. Understanding how these systems are built and improved is crucial for anyone interested in the future of technology. This article explains how AgentLite can simplify the development of AI agents, making the technology more accessible and versatile. Whether you’re a developer looking to enhance your AI skills, a business leader curious about integrating AI into your operations, or just someone interested in the future of technology, this article will provide valuable insights into the next wave of AI innovation.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
@@ -55,24 +49,24 @@ By reading this article, you'll gain insights into the practical implementation 
 
    - Navigate to your project directory and install required packages using `pip`:
    
-     ```bash
-     
+    ```bash 
+   pip install -r requirements.txt
+       
+   if you wish to use original AgentLite repo, follow below
     git clone https://github.com/SalesforceAIResearch/AgentLite.git
     cd AgentLite
-    pip install -e .
-        
-    cd ../ 
-    pip install -r requirements.txt
-
+    pip install -e .     
+    
+    
     ```
 
-3. **Run - AI Agent Powered Refund Processing System**
+3. **Run - Task Oriented AI Agents**
 
-   Finally, execute the following command to start the "AI Agent Powered Refund Processing System" application:
+   Finally, execute the following command to start the "Task Oriented AI Agents" application:
 
    ```bash 
-   # generate synthetic cases of our Law Firm
-   python app.py
+   # Run Task Oriented AI Agents
+   (How_To_Build_A_Task_Oriented_AI_Agent) C:\Users\worka\PycharmProjects\How_To_Build_A_Task_Oriented_AI_Agent>python AgentLite\example\SearchManager.py
     ```
    
 
